@@ -1,0 +1,32 @@
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0 20px 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    margin: 0;
+    height: 100px;
+}
+
+.input {
+    text-decoration-style: none;
+    padding: 0 25px;
+    width: 30vw;
+    height: 6vh;
+    margin: 0 30px 0 0;
+    background-color: var(--gray);
+    border-radius: 50px;
+}
+
+.input::placeholder {
+    font-weight: 700;
+}
