@@ -6,7 +6,7 @@ export default createGlobalStyle`
 }
 
 html {
-  background-color: red;
+  background-color: #e21212;
 }
 
 * {
