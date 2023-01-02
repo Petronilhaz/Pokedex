@@ -1,0 +1,25 @@
+.list {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0;
+    margin: 0;
+}
+
+.add-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24vh;
+    width: 92%;
+    margin: 10px;
+    background-color: rgb(233, 230, 230);
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.add-more:hover {
+    cursor: pointer;
+    opacity: 0.95;
+    transform: scale(1.02);
+}

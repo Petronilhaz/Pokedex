@@ -1,8 +1,13 @@
-import { PokeCard } from "./components/PokeCard";
+import GlobalStyle from './styles/global'
+import { PokeList } from "./components/PokeList";
+import { Header } from "./components/Header";
 
 function App() {
   return (
-    <PokeCard />
+    <>
+      <GlobalStyle />
+      <PokeList />
+    </>
   );
 }
 
