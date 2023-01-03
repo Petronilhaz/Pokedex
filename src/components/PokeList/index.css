@@ -23,3 +23,11 @@
     opacity: 0.95;
     transform: scale(1.02);
 }
+
+@media (max-width: 768px) {
+    .list {
+        display: block;
+        width: 80vw;
+        margin: auto;
+    }
+}
